@@ -16,7 +16,7 @@ public class CompraServiceImpl implements CompraService {
 
     @Override
     public Compras saveCompra(Compras compra){
-        compra.setDateBuy(LocalDateTime.now());
+        //compra.setDateBuy(LocalDateTime.now());
         return compraRepository.save(compra);
     }
 

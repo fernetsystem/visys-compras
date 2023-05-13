@@ -27,6 +27,6 @@ public class Compras {
     @Column(name = "price", nullable = false)
     private Double price;
 
-    @Column(name = "dateBuy", nullable = false)
-    private LocalDateTime dateBuy;
+    //@Column(name = "dateBuy")
+    //private LocalDateTime dateBuy;
 }
